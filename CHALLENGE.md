@@ -14,7 +14,7 @@ Timeframe: ~ 7 day limit, can turn in early when done, can ask for extension
 This private GitHub repository (private repo) contains a skeleton Flask project which you will use to implement a basic REST API. The settings.py file in the project contains an Application Token and Secret for making authenticated requests against Twitter's API (see General expectations/notes below for 3rd party library usage).
 
 ###Notes About the Code Provided
-The provided sqlite database contains a single table called "twitter_accounts". The Flask application is already configured to read from the settings.py file.
+The Flask application is already configured to read from the settings.py file.
 No models, views, or url configurations have been defined.
 
 ##Deliverables
