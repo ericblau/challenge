@@ -2,11 +2,11 @@
 Coding challenge for candidates working on web services. Basic premise is to write a REST API that talks to Twitter and presents some information from tweets, and a front end app that interacts with API. Should be able to run locally on a laptop for testing and evaluation.
 
 ###Skills & Knowledge Being Assessed
-* Software development
-* Python web development
-* REST APIs
-* JavaScript
-* Written communication
++ Software development
++ Python web development
++ REST APIs
++ JavaScript
++ Written communication
 
 ##Instructions
 Timeframe: ~ 7 day limit, can turn in early when done, can ask for extension
@@ -21,19 +21,19 @@ No models, views, or url configurations have been defined.
 ###REST API
 Create a view that fulfills the following requirements:
 ####Backend
-*Accept a "twitter_account.id"
-*Use the Application Token and Secret to authenticate with Twitter's API.
-*Fetch the public timeline for the twitter_account.id from Twitter's API
-*Extract the Screen Name, Text, Tweet ID, Date, and Profile Image from each object
-*Transform the date into a Unix Timestamp
-*Render the result as a JSON response
++Accept a "twitter_account.id"
++Use the Application Token and Secret to authenticate with Twitter's API.
++Fetch the public timeline for the twitter_account.id from Twitter's API
++Extract the Screen Name, Text, Tweet ID, Date, and Profile Image from each object
++Transform the date into a Unix Timestamp
++Render the result as a JSON response
 ####Front-End
 Using the API written in Flask, you’ll create a JavaScript webapp that makes a request for a Twitter user’s timeline and displays the tweets returned. You can use a JavaScript framework (AngularJS, Ember.js, etc.) if you want. The tweets should be rendered in a list view and each message/tweet should display the following items:
-*Avatar image of author
-*Screen name of author
-*Tweet text
-*Reply icon (see below for details)
-*Relative timestamp (e.g. 5 minutes ago, 2 hours ago, 1 week ago)
++Avatar image of author
++Screen name of author
++Tweet text
++Reply icon (see below for details)
++Relative timestamp (e.g. 5 minutes ago, 2 hours ago, 1 week ago)
 #####Reply Icon
 Each Tweet should contain a dummy reply action. When clicking on the Reply icon, the app should show a prompt that prints the Tweet text, Tweet ID, and the author’s user ID.
 #####Markup/Styles
