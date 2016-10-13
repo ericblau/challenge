@@ -9,9 +9,11 @@ Coding challenge for candidates working on web services. Basic premise is to wri
  +  Written communication
 
 ##Instructions
-Timeframe: ~ 7 day limit, can turn in early when done, can ask for extension
+Timeframe: 7 days limit, can turn in early when done, can ask for extension
 
-This private GitHub repository (private repo) contains a skeleton Flask project which you will use to implement a basic REST API. The settings.py file in the project contains an Application Token and Secret for making authenticated requests against Twitter's API (see General expectations/notes below for 3rd party library usage).
+This archive contains a skeleton Flask project which you will use to implement a basic REST API. The settings.py file in the project contains an Application Token and Secret for making authenticated requests against Twitter's API (see General expectations/notes below for 3rd party library usage).
+
+When complete, send a link to a version of the updated project. The source code can be hosted online as an archive file or in a repository (e.g., GitHub).
 
 ###Notes About the Code Provided
 The Flask application is already configured to read from the settings.py file.
