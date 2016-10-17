@@ -7,10 +7,10 @@ $ . venv/bin/activate
 $ pip install flask
 ```
 
-Clone the repository and run the challenge app
+Untar the challenge archive and run the challenge app
 ```
-$ git clone git@github.com:lukaszlacinski/challenge.git
-$ cd challenge
+$ tar -xzvf challenge-1.1.tar.gz
+$ cd challenge-1.1
 $ export FLASK_APP=challenge.py
 $ flask run
  * Serving Flask app "challenge"
